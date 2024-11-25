@@ -171,6 +171,20 @@
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); 
 }
 </style>
+<body>
+    <div class="gif-container">
+        <img src="p.gif" alt="GIF animado" onclick="playMusic()">
+    </div>
+
+    <audio id="music" src="p3.mp3"></audio>
+
+    <script>
+
+        function playMusic() {
+            var audio = document.getElementById('music');
+            audio.play();
+        }
+    </script>
 <footer>
     <p>© 2024 Búsqueda de información en internet. Todos los derechos reservados. </p>
 </footer>
